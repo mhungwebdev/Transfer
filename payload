@@ -1,0 +1,378 @@
+{
+  "IsDisplaySummaryFirst": false,
+  "Subtitle": "Tin tuyển dụng: Tuyển QC",
+  "HeaderColumns": [
+    {
+      "Caption": "Họ và tên",
+      "FieldName": "CandidateName",
+      "Width": "auto",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Số điện thoại",
+      "FieldName": "Mobile",
+      "Alignment": "left",
+      "Width": 180,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Email",
+      "FieldName": "Email",
+      "Width": 250,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Chiến dịch tuyển dụng",
+      "FieldName": "RecruitmentCampaignNames",
+      "Alignment": "left",
+      "Width": 200,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Trình độ đào tạo",
+      "FieldName": "EducationDegreeName",
+      "Alignment": "left",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Nơi đào tạo",
+      "FieldName": "EducationPlaceName",
+      "Alignment": "left",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Chuyên ngành",
+      "FieldName": "EducationMajorName",
+      "Alignment": "left",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Nhận xét, đánh giá quá trình Thi tuyển/ Phỏng vấn",
+      "FieldName": "CandidateEvaluations",
+      "DataType": "DecimalType",
+      "Alignment": "left",
+      "Width": 120,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Thẻ",
+      "FieldName": "TagNames",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Nguồn ứng viên",
+      "FieldName": "ChannelName",
+      "Alignment": "left",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Ngày ứng tuyển",
+      "FieldName": "ApplyDate",
+      "DataType": "DateType",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Nhân sự thu hút",
+      "FieldName": "AttractivePersonnel",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Địa chỉ",
+      "FieldName": "Address",
+      "Alignment": "left",
+      "Width": 200,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Nơi làm việc gần đây",
+      "FieldName": "WorkPlaceRecent",
+      "Alignment": "left",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Kinh nghiệm làm việc",
+      "FieldName": "WorkExperiences",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Người giới thiệu",
+      "FieldName": "PresenterName",
+      "Alignment": "left",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Phòng ban người giới thiệu",
+      "FieldName": "PresenterOUName",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Trạng thái",
+      "FieldName": "Status",
+      "DataType": "EnumType",
+      "EnumName": "CandidateStatusInRecruitment",
+      "Alignment": "left",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Ngày sinh",
+      "FieldName": "Birthday",
+      "DataType": "DateType",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Giới tính",
+      "FieldName": "Gender",
+      "DataType": "EnumType",
+      "EnumName": "EnumGender",
+      "Alignment": "left",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Lý do loại",
+      "FieldName": "ReasonRemoved",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Cộng tác viên",
+      "FieldName": "CollaboratorName",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Ngày tiếp nhận",
+      "FieldName": "HireDate",
+      "DataType": "DateType",
+      "IsCheck": true
+    },
+    {
+      "Caption": "Quy trình",
+      "FieldName": "ProcessIDs",
+      "IsCheck": true
+    },
+    {
+      "Caption": "test17",
+      "FieldName": "Date7",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "test16",
+      "FieldName": "Date6",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "test15",
+      "FieldName": "Date5",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "test14",
+      "FieldName": "Date4",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "test13",
+      "FieldName": "Date3",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "test12",
+      "FieldName": "Date2",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "test1",
+      "FieldName": "Date1",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "8",
+      "FieldName": "Text7",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "7",
+      "FieldName": "Text6",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "6",
+      "FieldName": "Text5",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "5",
+      "FieldName": "Text4",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "4",
+      "FieldName": "Text3",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "2",
+      "FieldName": "Text2",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "1",
+      "FieldName": "Text1",
+      "Alignment": "center",
+      "Width": 150,
+      "IsCheck": true
+    },
+    {
+      "Caption": "Vòng tuyển dụng",
+      "FieldName": "RecruitmentRoundName",
+      "IsCheck": true
+    }
+  ],
+  "APIPath": "Candidate/exportRecruitmentDetailDefault/10089",
+  "Param": {
+    "PageIndex": 1,
+    "PageSize": 1000,
+    "Filter": "",
+    "Sort": "",
+    "DetailFilter": "[]",
+    "QuickSearch": {
+      "SearchValue": "",
+      "Columns": [
+        "CandidateName",
+        "Mobile",
+        "Email",
+        "JobPositionName",
+        "RecruitmentName",
+        "RecruitmentRoundName",
+        "AttractivePersonnel",
+        "EducationDegreeName",
+        "EducationPlaceName",
+        "EducationMajorName",
+        "WorkPlaceRecent"
+      ]
+    }
+  },
+  "IsAutoFitColumn": true,
+  "ExportFileType": 2,
+  "Title": "DANH SÁCH ỨNG VIÊN",
+  "FileName": "DSUV - 13.4.2023",
+  "Data": [
+    {
+      "RecruitmentID": 10089,
+      "RecruitmentRoundID": 56698,
+      "Status": 1,
+      "StartTime": null,
+      "RecruitmentChannelID": null,
+      "ApplyDate": "2023-04-12T17:57:46.000+07:00",
+      "ReasonRemoved": null,
+      "RecruitmentRoundName": "Ứng tuyển",
+      "SortOrder": 1,
+      "AttachmentCVID": null,
+      "AttachmentCVName": null,
+      "ChannelName": "",
+      "IsEmployee": null,
+      "CandidateID": 271203,
+      "TenantID": "7d2378bd-59d7-430d-9dff-3054f7902629",
+      "HireDate": null,
+      "ScoreCandidate": 0,
+      "Score": 0,
+      "Avatar": "/APIS/RecruitmentAPI/api/Avatar?avatarID=271203&isScale=true&height=64&width=64&v=1681358354855",
+      "CandidateName": "Testemail",
+      "ModifiedDate": "2023-04-06T16:38:53.007+07:00",
+      "ModifiedBy": "NV000001",
+      "CreatedDate": "2023-04-06T16:38:53.007+07:00",
+      "CreatedBy": "NV000001",
+      "EditVersion": "2023-04-12T17:57:46.958+07:00",
+      "Gender": 1,
+      "Active": 1,
+      "AvatarColor": "#39C5AB",
+      "Mobile": null,
+      "Birthday": null,
+      "Email": "firmaina97@gmail.com",
+      "Address": "",
+      "Skype": null,
+      "Facebook": null,
+      "OtherSocial": null,
+      "CandidateStatusID": 1,
+      "CandidateStatusName": null,
+      "IsNew": 0,
+      "IsOutOfCapcity": null,
+      "AttractivePersonnel": "MISA ID11",
+      "AttractivePersonnelID": "92cb7743-d82f-4237-acea-bb430020363c",
+      "EducationDegreeID": null,
+      "EducationDegreeName": null,
+      "EducationPlaceID": null,
+      "EducationPlaceName": null,
+      "EducationMajorID": null,
+      "EducationMajorName": null,
+      "BirthdayFormat": 3,
+      "YearOfBirthday": 1970,
+      "MonthOfBirthday": 1,
+      "WorkPlaceRecent": null,
+      "CountTask": null,
+      "TagInfos": null,
+      "IsMultiNews": 0,
+      "CreatedUserID": "92cb7743-d82f-4237-acea-bb430020363c",
+      "CollaboratorID": null,
+      "CollaboratorName": null,
+      "CustomInforFields": "{}",
+      "PresenterID": null,
+      "PresenterName": null,
+      "PresenterOUID": null,
+      "PresenterOUName": null,
+      "OrganizationUnitID": null,
+      "OrganizationUnitName": null,
+      "UnreadEmailQuantity": 0,
+      "EmployeeBlackListIDs": null,
+      "RecruitmentCampaignIDs": null,
+      "RecruitmentCampaignNames": null,
+      "CandidateConvertID": "d7c14847-d45e-11ed-8997-005056b2efa4",
+      "SentPropose": null,
+      "IsSendTrain": null,
+      "StatusTrain": null,
+      "ProcessIDs": null,
+      "ProcessCodes": null,
+      "CountSchedule": 0,
+      "IsDuplicate": 0,
+      "TagNames": "",
+      "Tags": [],
+      "ListEmail": [
+        "firmaina97@gmail.com"
+      ],
+      "AvatarURL": "/APIS/RecruitmentAPI/api/Avatar?avatarID=92cb7743-d82f-4237-acea-bb430020363c&isScale=true&height=64&width=64&v=1681358354855",
+      "WorkExperiences": [],
+      "CandidateEvaluations": []
+    }
+  ]
+}
