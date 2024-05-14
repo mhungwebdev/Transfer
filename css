@@ -1,0 +1,27 @@
+.wave-text {
+    font-size: 3rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.wave-text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #61dafb;
+    animation: wave 2s infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        clip-path: polygon(0 45%, 100% 45%, 100% 55%, 0 55%);
+    }
+    50% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
